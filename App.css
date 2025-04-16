@@ -1,0 +1,71 @@
+.App {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.room-list {
+  margin-top: 20px;
+}
+
+.room-item {
+  background-color: #54e57f;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.room-item:hover {
+  background-color: #f1f1f1;
+}
+
+.booking-form {
+  margin-top: 30px;
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 300px;
+  border-radius: 5px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
